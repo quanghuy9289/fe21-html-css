@@ -1,0 +1,33 @@
+img {
+    float: left;
+clear: left;
+}
+header h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(243, 229, 26);
+}
+header h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    text-indent: 3em;
+    color:green;
+}
+a{
+    text-align: left;
+    color: yellowgreen;
+}
+footer{
+    text-align: right;
+    font-size: large;
+}
+ul{
+    line-height: 25px;
+}
+header{
+    text-align: center;
+}
+a:hover{
+    color: hotpink;
+}
