@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\HTML5 CSS3\\Exercise\\Exercise_base\\town_hall_1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "chapter3"
+	}
+}
