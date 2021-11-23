@@ -1,0 +1,100 @@
+html{
+    background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid#931420;
+    background-color: #fffded;
+    box-shadow: 5px 5px rgb(136, 124, 124);
+}
+header{
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    border-bottom: 3px solid #800000;
+    background-image: linear-gradient(30deg, orange, white, orange);
+}
+header img{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+} 
+header h2{
+  
+    font-size: 170%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #800000; 
+}
+
+header h3{
+    font-size: 130%;
+    font-style: italic;
+}
+header em{
+    text-shadow: 1.5px 1.5px #800000;
+}
+section{
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+section h1{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 150%;
+    margin-left: 20px;
+    border-top: 3px solid #800000 ;
+    border-bottom: 3px solid #800000;
+    border: 2px double red;
+    box-shadow: 4px 4px rgb(15, 1, 1);
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 30px;
+}
+section h2{
+    padding-top: 0.5em;
+    padding-bottom: 3px;
+    font-size: 130%;
+    color: #800000;
+    text-indent: 20px;
+}
+section p{
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+
+}
+section ul{
+    padding-bottom: 0.25em;
+    padding-left: 60px;
+}
+section li{
+    padding-bottom: 0.35em;
+}
+section h3{
+    padding-bottom: 0.25em;
+    font-size: 105%;
+    margin-left: 20px;
+}
+section a{
+    font-style: italic;
+}
+section img{
+    padding-bottom: 1em;
+    margin-left: 20px;
+}
+footer{
+    color: white;
+    background-color: #800000;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+   
+}
+
+
+
