@@ -1,0 +1,65 @@
+:root{
+    --primary-color: #800000;
+}
+
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+h2{
+    color: var(--primary-color);
+}
+header h2 {
+    font-size: 170%;
+    display: inline-block;
+    margin-top: 0;
+}
+header h3 {
+    display: inline-block;
+    font-style: italic;
+    margin-top: 0;
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+h3 > span {
+    text-shadow: 2px 2px 3px rgb(172, 81, 81);
+}
+/* the styles for the section */
+section {
+	clear: left;
+}
+section h1 {
+    font-size: 150%;
+}
+section h2 {
+    font-size: 130%;
+    color: var(--primary-color)
+}
+section h3 {
+    font-size: 105%;
+}
+h3 > a{
+    color: #2415af;
+}
+h3 > a:hover {
+    font-style: italic;
+}
+
+/* the styles for the footer */
+footer p{
+    text-align: center;
+}
