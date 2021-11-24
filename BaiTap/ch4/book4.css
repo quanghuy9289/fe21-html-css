@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  align-items: center;
+}
+div.img {
+  display: inline-block;
+  width: 20%;
+  height: 100px;
+  flex: 30%;
+}
+div#content {
+  width: 80%;
+  font-family: "Times New Roman";
+  flex: 70%;
+  display: inline-block;
+  height: 60px;
+  margin: 0pt;
+}
+.content1 {
+  color: red;
+  font-weight: 999;
+  font-style: italic;
+  text-shadow: yellow;
+  text-align: left;
+  font-family: "Times New Roman";
+  display: inline-block;
+  margin: 0;
+  text-shadow: 2px 2px 2px rgb(67, 71, 60);
+  height: 30px;
+}
+h3 {
+  color: red;
+}
+.images1 {
+  margin: 10px 0px;
+}
+footer {
+  text-align: center;
+}
+em {
+  color: black;
+  font-weight: bolder;
+  font-style: italic;
+  font-variant: unset;
+  text-shadow: 0px 2px 2px red;
+}
