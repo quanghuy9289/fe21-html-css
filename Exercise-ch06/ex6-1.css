@@ -1,0 +1,88 @@
+html{
+    background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    height: 2000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid#931420;
+    background-color: #fffded;
+    border-radius: 10px 10px 10px 10px; 
+    box-shadow: 5px 5px rgb(136, 124, 124);
+}
+header{
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid #800000;
+    background-image: linear-gradient(30deg, orange, white, orange);
+}
+header img{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+} 
+header h2{
+  
+    font-size: 170%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #800000; 
+}
+
+header h3{
+    font-size: 130%;
+    font-style: italic;
+}
+header em{
+    text-shadow: 1.5px 1.5px #794747;
+}
+section{
+    float: right;
+    width: 600px;
+    padding-right: 30px;
+
+}
+section h1{
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+    border-bottom: 3px solid #800000;
+   
+}
+section h2{
+    color: #800000;
+}
+section h2 .title{
+    border-top: 3px solid #800000;
+}
+section h3{
+    padding-bottom: 0.1em;
+    font-size: 105%;
+    font-weight: bold;
+}
+section img{
+    float: right;
+    padding-right: 1px;
+}
+section p{
+    padding-bottom: 30px;
+}
+aside{
+    padding-left: 15px;
+}
+
+footer{
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    background-color:#800000;
+    clear: both;
+}
+
+
+
+
