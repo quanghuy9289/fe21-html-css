@@ -153,3 +153,43 @@ pre.last{
 .right > h1,.left > h1{
     color: var(--primary-color);
 }
+/* navbar */
+.navbar ul#nav_menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+#nav_menu{
+    padding-left: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+}
+ul#nav_menu li{
+    text-align: center;
+    padding: 12px 0;
+    flex: 1;
+    position: relative;
+}
+li > ul{
+    display: none;
+    padding: 8px;
+}
+li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+    top: 100%;
+}
+li:hover ul li{
+    width: 143px;
+}
+li ul li:hover{
+    opacity: 0.8;
+}
+
