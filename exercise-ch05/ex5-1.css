@@ -10,6 +10,7 @@ body {
     margin-right: auto;
     border: 3px solid#931420;
     background-color: #fffded;
+    border-radius: 10px 10px 10px 10px; 
     box-shadow: 5px 5px rgb(136, 124, 124);
 }
 header{
@@ -82,6 +83,9 @@ section h3{
 }
 section a{
     font-style: italic;
+}
+section a:hover{
+    color:red;
 }
 section img{
     padding-bottom: 1em;
