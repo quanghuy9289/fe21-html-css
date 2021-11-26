@@ -58,9 +58,10 @@ a:hover{
   padding-left: 10px;
 }
 .mh3>a{
-
   text-indent: 10px;
- 
+}
+img{
+  padding-left: 10px;
 }
 
 /* style for section */
