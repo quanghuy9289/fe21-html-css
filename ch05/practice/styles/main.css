@@ -1,0 +1,75 @@
+/* common style */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 87.5%;
+}
+
+.hh2 {
+  font-size: 170%;
+  color: #800000;
+  text-indent: 4.5em;
+}
+
+.hh3{
+  font-size: 130%;
+  text-indent: 6em;
+  font-style: italic;
+}
+
+.shadowth{
+  text-shadow:4px 2px 5px #800000 ;
+}
+.float {
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+  margin-left: 6px;
+}
+.indent{
+  padding-left: 6px;
+}
+
+
+a:hover{
+  background-color:skyblue;
+  font-style: italic;
+
+} 
+
+/*ul {
+  line-height: 1.5;
+}*/
+
+/* style for header */
+
+
+.mh1{
+  font-size: 150%;
+  text-indent: 10px;
+}
+.mh2{
+  font-size: 130%;
+  color: #800000;
+  text-indent: 10px;
+}
+.mh3{
+  font-size: 105%;
+  /*text-indent: 10px;*/
+  font-style: normal;
+  padding-left: 10px;
+}
+.mh3>a{
+
+  text-indent: 10px;
+ 
+}
+
+/* style for section */
+section {
+  clear: both;
+}
+
+/* style for footer */
+footer p {
+  text-align: center;
+  font-size: 80%;
+}
