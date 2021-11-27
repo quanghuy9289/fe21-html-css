@@ -1,0 +1,50 @@
+#nav-menu ul {
+  list-style-type: none;
+  position: relative;
+  
+}
+#nav-menu ul li {
+  float: left;
+  border-right: 2px solid rgb(88, 24, 24);
+  width: 200px;
+}
+#nav-menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.7em 1em;
+  font-weight: bold;
+  background-color: #facd8a;
+  text-align: center;
+}
+#nav-menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  padding: 0;
+  margin: 0;
+}
+#nav-menu ul ul li {
+  clear: both;
+  position: relative;
+}
+
+/* apply cho ul con của li */
+#nav-menu ul li:hover > ul {
+  display: block;
+}
+#nav-menu > ul::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#nav-menu ul ul li ul {
+  position: absolute;
+  top: 0;
+  /* đưa ra theo chiều ngang */
+  left: 100%;
+}
+#nav-menu ul li.last-item ul li ul {
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
