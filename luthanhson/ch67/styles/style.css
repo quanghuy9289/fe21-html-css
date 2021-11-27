@@ -1,3 +1,10 @@
+html {
+    background-image: -moz-linear-gradient(top, white 0%, #facd8a 100%);
+    background-image: -webkit-linear-gradient(top, white 0%, #facd8a 100%);
+    background-image: -o-linear-gradient(top, white 0%, #facd8a 100%);
+    background-image: linear-gradient(top, white 0%, #facd8a 100%);
+    background-repeat: no-repeat;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +37,7 @@ em{
     text-shadow: 1px 1px 1px brown;
 }
 body{
-    width: 960px;
+    width: 966px;
     margin: 0px auto;
     border: 3px solid brown;
     background-color: burlywood;
@@ -40,12 +47,13 @@ nav {
     background-color: brown;
 }
 
-nav .menu>ul li{
+nav .menu ul li{
     float: left;
     list-style: none;
     line-height: 35px;
-    padding: 0 65px;
+    width: 192px;
     position: relative;
+    text-align: center;
     
 }
 nav .menu ul li:hover{
@@ -54,7 +62,8 @@ nav .menu ul li:hover{
 nav .menu ul li a{
     text-decoration: none;
     color: white;
-    font-weight: bold;  
+    font-weight: bold;
+    
 }
 nav .menu ul li a:hover{
     color: yellow;
@@ -86,7 +95,7 @@ aside a{
 }
 main{
     float: right;
-    width: 590px;
+    width: 645px;
 }
 main img{
     float: right;
