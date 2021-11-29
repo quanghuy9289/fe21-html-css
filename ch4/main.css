@@ -1,0 +1,39 @@
+
+#logo{
+    float: left;
+}
+img{
+    height: 80;
+}
+header h2{
+    font-size: 170%;
+    color: #800000;
+    margin-left: 30px;
+}
+header h3{
+    font-size: 130%;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+main h1{
+    font-size: 150%;
+}
+main h2{
+    font-size: 130%;
+    color: #800000;
+}
+main h3{
+    font-size: 150%;
+}
+main a:hover{
+    color: chartreuse;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
+
+h3 > sup{
+    text-shadow: 2px 2px #800000;
+}
