@@ -1,0 +1,143 @@
+/* common style */
+
+.bodh{
+      border: 3px solid #931420;
+      border-left: none;
+      border-right: none;
+      border-top: 0px;
+      background-image: -moz-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+      background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    
+}
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 87.5%;
+      width: 800px;
+      margin: 0 auto 0 auto;
+      border: 3px solid #931420;
+      background-color: #fffde7;
+}
+section {
+        width: 525px;
+        float: right;
+        padding: 0 20px .25em 20px;
+}
+aside{
+      width: 215px;
+      float: right;
+      padding: 0 0 20px 20px;
+      font-size: 105%;
+
+}
+
+.hh2 {
+  font-size: 170%;
+  color: #800000;
+  padding-left: 6em;
+  margin-top:0px ;
+  padding-top: 1em;
+  margin-bottom: 4px;
+}
+.hh3{
+  font-size: 130%;
+  font-style: italic;
+  padding-left: 8em;
+  margin-top: 0px;
+  margin-bottom: 2.5em;
+}
+
+q{
+  font-style: italic;
+  margin-top: 2px;
+}
+section h1{
+          margin-top: 12px;
+}
+section h2{
+          font-size: 130%;
+          margin-top: 12px;
+          margin-bottom: 0;
+          padding: 0 30px 0 30px;
+}
+article h1{
+        font-size: 150%;
+        padding-top: .5em;
+        padding-bottom: .25em;
+        margin: 0;
+        padding: 0 30px 0 30px;
+
+}
+article a{
+          padding: 0 0 0 30px;
+}
+aside h2{
+        font-size: 130%;
+        color: #800000;
+        margin-top: 0px;
+        margin-bottom: -5px;
+        padding: 0 30px 0 30px;
+}
+aside h3{
+         font-size: 105%;
+         padding-top: .25em;
+         padding-right: 25px;
+}
+p{
+      padding: 0 30px 0 30px; 
+      margin:2px 0 2px 0;
+}
+.padul{
+  margin-top: 0; 
+}
+h3{
+  font-size: 105%;
+  font-style: normal;
+  padding: 0 30px 0 30px;
+  margin-bottom: 4px;
+}
+article{
+        padding: .5em 0 .5em 0;
+}
+.samp{
+      float: right;
+      margin: 8px 0px 0px 12px;
+      padding: 0px;
+      border: 1px solid black ;
+}
+.arth2{
+      padding-top: 0;
+      color: #800000;
+      padding: 0 30px 0 30px;
+}
+h1{
+  font-size: 150%;
+  padding: .5em 0 .25 0;
+  margin: 0;
+
+}
+.shadowth{
+  text-shadow:4px 2px 5px #800000 ;
+}
+.float {
+  margin-top: -9em;
+  margin-bottom: 2em;
+}
+a:hover{
+  font-style: italic;
+} 
+
+img{
+  padding: 0 30px 1em 30px;
+}
+/* style for footer */
+
+footer p {
+  text-align: center;
+  font-size: 100%;
+  background-color: #931420;
+  border: 3px solid #931420;
+  margin: -1px;
+  color: white;
+  padding: 1em 0 1em 0;
+  clear: both;
+}
