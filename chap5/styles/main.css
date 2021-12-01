@@ -1,4 +1,4 @@
-/* the styles for the elements */
+/* elements */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ a:hover,
 a:focus {
   font-style: italic;
 }
-/* the styles for the header */
+/* header */
 header {
   border-bottom: 3px solid #931420;
   padding-top: 1.5em;
@@ -51,7 +51,7 @@ header h3 {
   text-shadow: 2px -2px 2px #800000;
 }
 
-/* the styles for the section */
+/* section */
 main {
   clear: left;
   padding: 0 30px 15px;
@@ -95,7 +95,7 @@ main ul li {
   padding-bottom: 0.35em;
 }
 
-/* the styles for the footer */
+/* footer */
 footer {
   border-top: 3px solid #931420;
   background-color: #931420;

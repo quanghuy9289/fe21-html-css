@@ -1,4 +1,4 @@
-/* the styles for the elements */
+/* elements */
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
@@ -8,7 +8,7 @@ a:hover,
 a:focus {
   font-style: italic;
 }
-/* the styles for the header */
+/* header */
 header img {
   float: left;
 }
@@ -29,7 +29,7 @@ header h3 {
   text-shadow: 2px -2px 2px #800000;
 }
 
-/* the styles for the section */
+/* section */
 main {
   clear: left;
 }
@@ -47,7 +47,7 @@ main h3 {
   font-size: 105%;
 }
 
-/* the styles for the footer */
+/* footer */
 footer p {
   text-align: center;
 }
