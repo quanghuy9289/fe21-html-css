@@ -1,0 +1,80 @@
+html {
+  background-color: gray;
+  border: 1px solid rgb(10, 10, 10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid orangered;
+  background-color: white;
+}
+.header__img {
+  height: 100px;
+  weight: 40px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 20%;
+}
+.header__title {
+  width: 80%;
+  font-family: "Times New Roman";
+  display: inline-block;
+  height: 100px;
+}
+.header__title h1 {
+  color: orange;
+  font-family: "Times New Roman";
+  font-weight: 900;
+  height: 40px;
+  margin-top: 0;
+  text-shadow: rgb(10, 10, 10) 2px 2px 2px;
+}
+.header__title h2 {
+  height: 20px;
+  font-style: oblique;
+}
+main {
+  display: flex;
+  padding: 15px;
+  align-items: flex-start;
+  border-bottom: 1px solid orangered;
+  background-color: white;
+}
+.main1 {
+  display: inline-block;
+  margin-right: 40px;
+}
+.main1 h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.main2 {
+  display: inline;
+  padding: 0px 20px;
+  background-color: rgb(230, 207, 164);
+}
+.a1 {
+  color: gray;
+}
+.a2 {
+  color: red;
+}
+
+h3 {
+  color: red;
+}
+footer {
+  /* display: flex;
+  justify-content: flex-end; */
+  text-align: right;
+  background-color: white;
+}
+samp {
+  /* display: inline-block; */
+}
