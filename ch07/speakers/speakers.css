@@ -1,0 +1,97 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+html{
+	background-color: white;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+    height: 850px;
+} 
+/* the styles for the header */
+header{
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+
+}
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+header h2{
+	font-size: 170%;
+	color: #800000;
+
+}
+
+header h3{
+	font-size: 130%;
+	font-style: italic;
+}
+/* the styles for the aside */
+aside{
+    width: 215px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+aside h3{
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+aside img{
+    padding-bottom: 1em;
+}
+/* the styles for the section */
+section img{
+	float: right;
+	position: absolute;
+	top: 45px;
+	right: 10px;
+}
+/* section h1{
+	border-radius: 5%;
+	border: 3px solid #931420;
+	box-shadow: 5px 5px 10px #931420;
+	width: 300px;
+	margin-left: 150px;
+} */
+section {
+	clear: left;
+	width: 525px;
+	float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+#text {
+    width: 270px;
+}
+/* section p{
+	width: 270px;
+} */
+
+a:hover{
+	font-style: italic;
+}
+/* the styles for the footer */
+footer{
+	background-color: #931420;
+	text-align: center;
+	height: 40px;
+    clear: both;
+}
+footer p{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
