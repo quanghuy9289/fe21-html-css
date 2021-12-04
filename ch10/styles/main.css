@@ -1,0 +1,266 @@
+html {
+  background-color: white;
+}
+body {
+  display: grid;
+  grid-template: repeat(4, auto) / auto 1fr;
+  width: 98%; /*width is 800px*/
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  border: 3px solid #931420;
+  background-color: #fffded;
+}
+#logo {
+  padding-right: 3.75%;
+  padding-left: 3.75%;
+  float: left;
+}
+img {
+  padding-left: 30px;
+  padding-bottom: 1em;
+  height: 80;
+}
+header {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  padding-top: 1px;
+  background-image: linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  border-bottom: 3px solid #931420;
+  padding-top: 1.5ems;
+  padding-bottom: 1.5ems;
+}
+header h2 {
+  font-size: 170%;
+  color: #800000;
+}
+header h3 {
+  font-size: 130%;
+  font-style: italic;
+}
+#nav_menu {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  shape-outside: none;
+}
+#nav_menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+#nav_menu ul li {
+  width: 20%;
+  float: left;
+}
+#nav_menu ul li a {
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-decoration: none;
+  background-color: #800000;
+  color: white;
+  font-weight: bold;
+}
+.current {
+  color: yellow !important;
+}
+#nav_menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#nav_menu ul ul li {
+  /* delete float */
+  float: none;
+}
+#nav_menu ul li:hover > ul {
+  /* display submenu */
+  width: 100%;
+  display: block;
+}
+#nav_menu > ul::after {
+  /* keep main menu's li display */
+  content: '';
+  display: block;
+  clear: both;
+}
+
+main h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  font-size: 130%;
+  color: #800000;
+}
+main h3 {
+  padding-bottom: 0.25em;
+  font-size: 150%;
+}
+main p {
+  padding-bottom: 0.5em;
+}
+main blockquote {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-style: italic;
+}
+main a:hover {
+  color: chartreuse;
+}
+main ul {
+  list-style-type: circle;
+}
+section {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 20px;
+  width: 65.625%; /* 525px;*/
+  /* float: right; */
+}
+h1 {
+  font-size: 150%;
+  padding-top: 0.5ems;
+  padding-bottom: 0.25ems;
+  margin: 0;
+}
+
+article {
+  border-top: 2px solid #800000;
+  border-bottom: 2px solid #800000;
+  padding-top: 0.5ems;
+  padding-bottom: 0.5ems;
+}
+article h2 {
+  padding-top: 0;
+}
+article h3 {
+  font-size: 90%;
+  padding-bottom: 0.25ems;
+}
+article img {
+  float: right;
+  padding: 0;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  max-width: 40%;
+  min-width: 150px;
+}
+article p {
+  margin-bottom: 0;
+}
+article #see-more {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h3 > sup {
+  text-shadow: 2px 2px #800000;
+}
+
+main ul {
+  padding-bottom: 0.25em;
+  padding-left: 1.25em;
+}
+main ul li {
+  padding-bottom: 0.35em;
+}
+aside {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding-left: 2.5%;
+  padding-bottom: 20px;
+  width: 26.875%; /*215px*/
+  /* float: right; */
+}
+aside h3 {
+  margin: 0;
+  font-size: 90%;
+  padding-bottom: 0.25ems;
+}
+
+aside img {
+  padding-bottom: 1em;
+  margin-left: -30px;
+}
+footer {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  text-align: center;
+  background-color: #800000;
+}
+footer p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+/* media for tablet */
+@media screen and (max-width: 959px) {
+  section h1 {
+    font-size: 135%;
+  }
+  section h2 {
+    font-size: 120%;
+  }
+  aside h2 {
+    font-size: 120%;
+  }
+}
+/* media for phone */
+@media screen and (max-width: 767px) {
+  header img {
+    float: none !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section,
+  aside {
+    float: none !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 10px);
+  }
+  article img {
+    max-width: 30%;
+  }
+  #media-column {
+    column-count: 2;
+  }
+
+  header h2,
+  h3 {
+    text-align: center;
+  }
+}
+
+/* hide slicknav_menu when > 479px */
+.slicknav_menu {
+  display: none;
+}
+/* media query for a phone in portrait orientation */
+@media screen and (max-width: 479px) {
+  p {
+    font-size: 90%;
+  }
+  .slicknav_menu {
+    background-color: #800000 !important;
+    display: block;
+  }
+  #nav_menu {
+    display: none;
+  }
+}

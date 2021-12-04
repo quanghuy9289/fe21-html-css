@@ -1,0 +1,46 @@
+fieldset {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  padding: 0.5em 1em;
+}
+
+legend {
+  color: black;
+}
+input:required,
+input:valid {
+  border: 2px solid #808080;
+}
+input:valid {
+  border: 1px solid black;
+}
+input {
+  width: 15em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+label {
+  float: left;
+  text-align: right;
+  width: 10em;
+}
+#order_type {
+  width: 15em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+#card_type {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+#exp_month {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+#submit {
+  margin-left: 100px;
+}
+#reset {
+  margin-top: 17px;
+  float: right;
+}
