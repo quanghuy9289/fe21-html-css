@@ -63,7 +63,11 @@ header em{
     font-weight: bold;
     background-color: #800000;
     text-align: center;
+    border-right: 2px solid white ;
   }
+.nav_menu ul li a.lastitem{
+    border-right: none;
+}
  .nav_menu ul ul {
     display: none;
     position: absolute;
