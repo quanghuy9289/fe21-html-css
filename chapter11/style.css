@@ -320,3 +320,58 @@ li ul li:hover{
         position: relative;
     }
 }
+/* tickets */
+
+fieldset {
+    width: 100%;
+    margin: 0 0 1em 0;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+legend {
+    color: black;
+    font-size: 90%;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    transform: translateY(-1px);
+}
+form input:required,
+form input:invalid{
+    border: 2px solid var(--primary-color);
+}
+form input:valid {
+    border: 1px solid black;
+}
+input,label,select{
+    margin: 3px 0;
+}
+form input,
+form select {
+  margin-left: .4em;
+  width: 15em;
+}
+form label{
+    display: inline-block;
+    width: 13em;
+    text-align: right;
+}
+input[type="radio"]{
+    width: auto;
+}
+#bill{
+    margin-left: 6em;
+}
+label[for="bill"],
+label[for="credit"]{
+    text-align: left;
+    width: 6em;
+}
+#exp_month{
+    width: 7em;
+}
+#exp_year{
+    width: 5em;
+}
