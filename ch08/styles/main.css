@@ -1,0 +1,191 @@
+/* So the HTML5 structural tags work in older browsers */
+*{
+	margin: 0;
+	padding: 0;
+}
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+html{
+	background-color: white;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+h1{
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+h2{
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+h3{
+	padding-bottom: .25em;
+}
+img{
+	padding-bottom: 1em;
+}
+p{
+	padding-bottom: .5em;
+}
+q{
+	padding-right: 2em;
+	padding-left: 2em;
+}
+/* ul{
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+} */
+/* li{
+	padding-bottom: .35em;
+} */
+/* the styles for the header */
+header{
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+
+}
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+
+header h2{
+	font-size: 170%;
+	color: #800000;
+	/* text-indent: 30px; */
+}
+
+header h3{
+	font-size: 130%;
+	font-style: italic;
+	/* text-indent: 30px; */
+}
+/* the styles for the section */
+section h1{
+	border-bottom: 3px solid #800000;
+	width: 500px;
+
+}
+section h2{
+	border-top: 3px solid #800000;
+	width: 500px;
+
+}
+section {
+	clear: left;
+	width: 525px;
+	float: right;
+	position: relative;
+}
+section q{
+	text-indent: 30px;
+	display: block;
+}
+section img{
+	float: right;
+	position: absolute;
+	top: 350px;
+	right: 10px;
+}
+section p{
+	width: 270px;
+}
+a:hover{
+	font-style: italic;
+}
+/* the styles for the aside */
+aside{
+    width: 215px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+	float: right;
+}
+aside h3{
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+aside img{
+    padding-bottom: 1em;
+}
+/* Style for Nav */
+.nav ul {
+    list-style-type: none;
+    position: relative;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	z-index:1;
+
+  }
+.nav ul li {
+    float: left;
+    width: 24.1%;
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    font-weight: bold;
+    background-color: #facd8a;
+    text-align: center;
+    width: 100%;
+}
+.nav ul li a:hover{
+    background-color: grey;
+}
+.nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    margin: 0;
+}
+.nav ul ul li {
+    clear: both;
+    position: relative;
+  }
+.nav ul li:hover > ul {
+    display: block;
+    width: 86%;
+}
+.nav > ul::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/* the styles for the footer */
+footer{
+	background-color: #931420;
+	text-align: center;
+	height: 40px;
+	clear: both;
+}
+footer p{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#mobile-menu{
+	display :none;
+}
+@media only screen and (max-width:960px) {
+    #mobile-menu{
+        display :block;
+    }
+    .nav{
+        display: none;
+    }
+}
