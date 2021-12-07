@@ -54,7 +54,8 @@ legend {
 label {
     float: left;
     width: 10em;
-    text-align: right;
+	text-align: right;
+   
 }
 input, select {
     width: 15em;

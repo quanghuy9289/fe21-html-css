@@ -41,9 +41,7 @@ header h3{
 header em{
     text-shadow: 1px 1px #5f5353;
 }
-nav #nav_menu{
-    width: 100%;
-}
+
 #nav_menu ul{
     width: 100%;
     margin: 0;
@@ -55,8 +53,6 @@ nav #nav_menu{
     position: relative;
 }
 #nav_menu ul li {
-    font-size: 90%;
-    list-style-type: none;
     width: 100%;
  }
 #nav_menu ul li a {
@@ -66,7 +62,7 @@ nav #nav_menu{
     padding: 1em 2em;
     font-weight: bold;
     background-color: #800000;
-    text-align: center;
+    
     
    
   }
@@ -82,7 +78,7 @@ nav #nav_menu{
   
 #nav_menu ul ul li {
     
-    font-size: 72%;
+    font-size: 80%;
     width: 20%;
     float: left;
     clear: both;
@@ -210,6 +206,10 @@ a:visited {
       float: none;
     }
   }
+  #nav_menu ul li {
+    font-size: 80%;
+}
+  
 @media screen and (max-width: 480px) {
     #nav_menu{
         display: none;
