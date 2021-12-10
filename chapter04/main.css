@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    background-color: white;
+    border: 1px solid black;
+}
+a {
+    font-weight: bold;
+}
+a:link {
+    color: #931420;
+}
+a:hover, a:focus {
+    color: blue;
+}
+header {
+    padding-bottom: 1em;
+}
+header img {
+    float: left;
+    /* padding-right: 30px; */
+}
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    padding-left: 30px;
+
+}
+header h3 {
+    font-size: 130%;
+    color: #800000;
+    font-style: italic;
+    padding-left: 30px;
+}
+header span, sup {
+    text-shadow: 2px -2px 2px #800000;
+}
+main {
+    clear: both;
+}
+main h1 {
+    font-size: 150%;
+}
+main h2 {
+    font-size: 130%;
+    color: #800000;
+}
+main h3 {
+    font-size: 105%;
+    margin: 0;
+}
+main img {
+    margin: 1em 0 ;
+}
+main .indent {
+    text-align: 2em;
+}
+main .data_passed {
+    color: gray;
+}
+footer p {
+    text-align: center;
+}
