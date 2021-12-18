@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    html {
+    background-color: white;
+    }
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 98%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffded;
+    display: grid;
+    grid-template: repeat(4, auto) / auto 1fr;
+    grid-template-areas: 
+        "head head"
+        "navi navi"
+        "main main"
+        "foot foot";
+    }
+    
+    a:hover,
+    a:focus {
+    font-style: italic;
+    }
+    
+    p {
+    padding-bottom: 0.5em;
+    }
+    
+    h2 {
+        font-size: 130%;
+        color: #800000;
+        padding-bottom: 6px;
+        padding-top: 10px;
+    }
+    h3 {
+        font-size: 105%;
+    }
+    
+    /* header */
+    header {
+    grid-area: head;
+    border-bottom: 3px solid #931420;
+    
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    background-image: -moz-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    background-image: -o-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    }
+    .header-left {
+        flex-basis: 15%;
+        
+    }
+    
+    header img {
+    float: left;
+    padding-right: 3.75%;
+    padding-left: 3.75%;
+    padding-left: 30px;
+    padding-bottom: 0.5em;
+    }
+    
+    header h2 {
+    font-size: 170%;
+    color: #800000;
+    }
+    
+    header h3 {
+    font-size: 130%;
+    font-style: italic;
+    }
+    
+    .shadow {
+    text-shadow: 2px -2px 2px #800000;
+    }
+    
+    /*nav */
+    #mobile_menu {
+        display: none;
+      }
+      
+      #nav_menu {
+        grid-area: navi;
+        position: relative;
+      }
+      
+      #nav_menu ul {
+        list-style-type: none;
+        display: grid;
+        grid-template: auto / repeat(5, 1fr);
+        vertical-align: middle;
+      }
+      
+      #nav_menu ul::after {
+        content: " ";
+        display: block;
+      }
+      
+      #nav_menu ul li {
+        flex-basis: 20%;
+        position: relative;
+      }
+      
+      #nav_menu ul li a {
+        display: block;
+        text-align: center;
+        padding: 1em 0;
+        text-decoration: none;
+        background-color: #800000;
+        color: white;
+        font-weight: bold;
+      }
+      
+      #nav_menu li.current a {
+        color: yellow;
+      }
+      
+      #nav_menu ul li ul {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+      }
+      
+      #nav_menu ul li:hover ul {
+        display: block;
+      }
+      
+      #nav_menu ul li ul li {
+        width: 100%;
+      }
+    
+    /* section */
+    main {
+       
+        padding-bottom: 15px;
+    }
+    .flex-box {
+        grid-area: main;
+        display: grid;
+        grid-template: auto / 30% 1fr;
+        column-gap: 2.5%;
+    }
+    .main-right {
+        /* flex-basis: 70%; */
+        grid-row: 1/2;
+        grid-column: 2/3;
+        padding: 0 20px 15px;
+    }
+    .main-left {
+        /* flex-basis: 30%; */
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding-left: 20px;
+    }
+    .main-left img {
+        padding-bottom: 15px;
+    }
+    .main-left h3 a {
+        color: blue;
+    }
+    
+    blockquote {
+        padding: 0 32px;
+        font-style: italic;
+    }
+    
+    .right-section h1 {
+        font-size: 150%;
+        padding: 10px 0 6px;
+        border-bottom: 2px solid #800000;
+    }
+    
+    .section-speakers {
+        padding-bottom: 8px;
+        border-bottom: 2px solid #800000;
+        display: flex;
+    }
+    
+    .speakers-left a {
+        color: blue;
+    }
+    .section-speakers p {
+        margin-top: 5px;
+    }
+    
+    .speakers-right img {
+        margin-left: 16px;
+    }
+    
+    .main-right ul {
+        padding: 0 20px;
+    }
+    .main-right li {
+        margin-bottom: 5px;
+        list-style: circle;
+    }
+    /*footer */
+    footer {
+    grid-area: foot;
+    border-top: 3px solid #931420;
+    background-color: #931420;
+    color: white;
+    }
+    footer p {
+    text-align: center;
+    padding: 1em 0;
+    }
+    
+    /* tablet*/
+    @media only screen and (max-width: 959px) {
+    main section h1 {
+    font-size: 135%;
+    }
+    main section h2 {
+    font-size: 120%;
+    }
+    
+    main aside h2 {
+    font-size: 120%;
+    }
+    }
+    
+    /* mobile */
+    @media only screen and (max-width: 767px) {
+    body {
+        display: grid;
+        grid-template: repeat(4, auto) / 1fr;
+        grid-template-areas:
+          "head"
+          "navi"
+          "main"
+          "foot";
+    }
+    header {
+    /* text-align: center; */
+    display: grid;
+        grid-template: repeat(3, auto) / 1fr;
+        gap: 0.5em;
+        justify-items: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    
+    }
+    header img {
+    float: none;
+    }
+    #nav_menu {
+    display: none;
+    }
+    #mobile_menu {
+        display: grid;
+    /* display: block; */
+    }
+    .slicknav_menu {
+    background-color: #800000 !important;
+    }
+    /* main */
+    .flex-box {
+        /* grid-area: main; */
+        /* display: block; */
+        grid-template: repeat(2, auto) / 1fr;
+    }
+    .main-right {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        width: 95%;
+    }
+    .main-left {
+        padding-right: 2.5%;
+        width: 95%;
+        grid-row: 2/3;
+        grid-column: 1/2;
+        padding-left: 2.5%;
+    }
+    .left-info {
+        column-count: 2;
+    }
+    
+    /* foot */
+    /* footer {
+        grid-area: foot;
+    } */
+    }
+    
+    /* styles for mobile in portrait orientation */
+    @media only screen and (max-width: 479px) {
+    body {
+    font-size: 90%;
+    }
+    }
