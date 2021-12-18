@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: violet;
+    border: 1px solid #000;
+}
+thead td {
+    vertical-align: bottom;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+thead th {
+    border: 1px solid #000;
+}
+th {
+    padding: 4px 10px;
+}
+
+td {
+    padding: 4px 10px;
+}
+tbody,
+tbody td,
+tfoot td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+tfoot {
+    background-color: violet;
+}
+tfoot th {
+    border: 1px solid #000;
+    text-align: left;
+}
